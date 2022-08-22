@@ -1,0 +1,9 @@
+alias cat=bat
+alias ls='exa -gG --color=always --group-directories-first'
+alias la='exa -lga --color=always --group-directories-first'
+#alias ll='colorls -lh --color=always'
+alias ll='exa -lg --color=always --group-directories-first'
+alias lt='exa -T --color=always --group-directories-first'
+alias lat='exa -aT --color=always --group-directories-first'
+alias l.="exa -a | egrep '^\.'"
+#alias make='CPPFLAGS="-D_FORTIFY_SOURCE=2" CFLAGS="-march=native -mtune=generic -O2 -pipe -fno-plt" CXXFLAGS="-march=native -mtune=generic -O2 -pipe -fno-plt" LDFLAGS="-Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now" MAKEFLAGS="-j4"'
